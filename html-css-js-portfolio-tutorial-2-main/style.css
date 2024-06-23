@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  height: 70vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -318,6 +318,8 @@ section {
 
 #experience {
   position: relative;
+  margin-top: 3rem;
+  margin-bottom: 8rem;
 }
 
 .experience-sub-title {
@@ -391,6 +393,9 @@ article .icon {
 
 #projects2 {
   position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* CONTACT */
@@ -399,7 +404,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 27vh;
 }
 
 .contact-info-upper-container {
