@@ -6,10 +6,6 @@
   .about-containers {
     flex-wrap: wrap;
   }
-
-  .experience-details-container{
-    line-break: auto;
-  }
   #contact,
   #projects {
     height: fit-content;
@@ -49,6 +45,7 @@
   .about-containers {
     margin-top: 0;
   }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -72,9 +69,6 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .about-containers{
-
-  }
   .contact-info-container {
     margin: 0;
   }
@@ -82,6 +76,7 @@
   .nav-links li a {
     font-size: 1rem;
   }
+  9
   .experience-sub-title {
     font-size: 1.25rem;
   }
