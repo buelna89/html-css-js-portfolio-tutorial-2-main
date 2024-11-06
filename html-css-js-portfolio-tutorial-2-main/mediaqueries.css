@@ -1,3 +1,10 @@
+@media screen and (max-width: 1900px) {
+  .color-container {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Set height to match width for a square shape */
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -81,7 +88,7 @@
   .nav-links li a {
     font-size: 1rem;
   }
-  9
+  
   .experience-sub-title {
     font-size: 1.25rem;
   }
@@ -106,5 +113,12 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .color-container {
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Set height to match width for a square shape */
   }
 }

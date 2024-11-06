@@ -182,7 +182,7 @@ section {
 .section__pic-container img {
   width: 100%;  /* Ensure the image covers the container */
   height: 100%; /* Maintain aspect ratio */
-  object-fit: cover; /* Crop the image to fill the circle */
+  object-fit: contain; /* Crop the image to fill the circle */
 }
 
 
